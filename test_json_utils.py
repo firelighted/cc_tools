@@ -32,5 +32,16 @@ else:
     input_json_file = default_input_json_file
 
 #Load the json data from the input file
+with open(input_json_file, 'r') as jsondata:
+    json_dict = json.load(jsondata)
+# Set up GameLibrary instance with Game and Platform instances
+game_library_data = test_data.GameLibrary()
+for game, desc in json_dict.items():
+    platf = test_data.Platform(desc['platform'].get('name'), desc['platform'].get('launch year'))
+    thegame = test_data.Game(desc['title'], platf, desc['year'])
+    game_library_data.add_game(thegame)
+
 #Use make_game_library_from_json(json_data) to convert the data to GameLibrary data
+game_library_strings = test_data.print_game_library(game_library_data)
 #Print out the resulting GameLibrary data using print_game_library(game_library_data) in test_data.py
+print(game_library_strings)
