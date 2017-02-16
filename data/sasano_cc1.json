@@ -1,0 +1,32 @@
+{
+  "GAME1": {
+    "level_number": 1,
+    "time": -1,
+    "chip_number": 4,
+    "upper": [],
+    "lower": [],
+    "optional": [
+        {"type": 3, "title": "Sarah's Level"},
+        {"type": 4, "trap_buttons": [ [5, 2, 8, 3] ]},
+        {"type": 5, "clone_buttons": [ [1, 2, 4, 3] ]},
+        {"type": 6, "encoded_password": [222,200,202,222]},
+        {"type": 7, "hint": "Use the force."},
+        {"type": 10, "moving_monsters": [ [5, 1] ] }
+    ]
+  },
+    "GAME2": {
+    "level_number": 2,
+    "time": -1,
+    "chip_number": 4,
+    "upper": [],
+    "lower": [],
+    "optional": [
+        {"type": 3, "title": "Sarah's Level 2"},
+        {"type": 4, "trap_buttons": [ [5, 2, 8, 3] ]},
+        {"type": 5, "clone_buttons": [ [1, 2, 4, 3] ]},
+        {"type": 6, "encoded_password": [222,200,202,222]},
+        {"type": 7, "hint": "Use the force."},
+        {"type": 10, "moving_monsters": [ [5, 1] ] }
+    ]
+  }
+}
