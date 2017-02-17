@@ -1,7 +1,7 @@
 {
   "GAME1": {
     "level_number": 1,
-    "time": -1,
+    "time": 1000,
     "chip_number": 4,
     "upper": [],
     "lower": [],
@@ -16,7 +16,7 @@
   },
     "GAME2": {
     "level_number": 2,
-    "time": -1,
+    "time": 1000,
     "chip_number": 4,
     "upper": [],
     "lower": [],
